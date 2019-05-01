@@ -214,7 +214,25 @@ function myFunction() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
+var modal = document.getElementById('ticketModal1');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal = document.getElementById('ticketModal2');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal = document.getElementById('ticketModal3');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal = document.getElementById('ticketModal4');
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
